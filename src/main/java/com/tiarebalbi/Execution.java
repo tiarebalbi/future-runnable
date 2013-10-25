@@ -1,14 +1,20 @@
 package com.tiarebalbi;
 
-import java.io.IOException;
-
 import com.tiarebalbi.scanner.Scanner;
 
+/**
+ * 
+ * @author Tiarê Balbi Bonamini
+ * @since Oct 25, 2013
+ * @version 1.0
+ *
+ */
 public class Execution {
 
-	public static void main(String[] args) throws IOException {
-		
-		// Inicializa scanner
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args)  {
 		new Scanner();
 	}
 }
